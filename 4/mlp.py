@@ -17,7 +17,7 @@ stoi['.'] = 0
 itos = {i:s for s,i in stoi.items()}
 
 
-block_size = 3
+block_size = 4
 X,Y = [],[]
 for w in words:
     context = [0]*block_size
